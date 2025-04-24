@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="650" viewBox="0 0 900 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="900" height="650" fill="#f8f9fa" rx="5" ry="5"/>
+  
+  <!-- 标题 -->
+  <text x="450" y="40" font-family="Ubuntu Mono, monospace" font-size="28" text-anchor="middle" font-weight="bold" fill="#333333">Domain-Driven Design Architecture</text>
+  
+  <!-- 战略设计部分 -->
+  <rect x="50" y="80" width="800" height="220" rx="10" ry="10" fill="#f1f7ff" stroke="#789edd" stroke-width="2"/>
+  <text x="450" y="110" font-family="Ubuntu Mono, monospace" font-size="22" text-anchor="middle" font-weight="bold" fill="#3060b0">Strategic Design</text>
+  
+  <!-- 战略设计元素 -->
+  <g>
+    <!-- 限界上下文 -->
+    <rect x="80" y="140" width="160" height="120" rx="8" ry="8" fill="#d4e6ff" stroke="#5080d0" stroke-width="1.5"/>
+    <text x="160" y="170" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#3060b0">Bounded Contexts</text>
+    <text x="160" y="195" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333" width="140">Define model boundaries</text>
+    <text x="160" y="215" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333" width="140">within the domain</text>
+    <text x="160" y="235" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333" width="140">with clear interfaces</text>
+  </g>
+  
+  <g>
+    <!-- 上下文映射 -->
+    <rect x="270" y="140" width="160" height="120" rx="8" ry="8" fill="#d4e6ff" stroke="#5080d0" stroke-width="1.5"/>
+    <text x="350" y="170" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#3060b0">Context Mapping</text>
+    <text x="350" y="195" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">Define relationships</text>
+    <text x="350" y="215" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">between different</text>
+    <text x="350" y="235" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">bounded contexts</text>
+  </g>
+  
+  <g>
+    <!-- 统一语言 -->
+    <rect x="460" y="140" width="160" height="120" rx="8" ry="8" fill="#d4e6ff" stroke="#5080d0" stroke-width="1.5"/>
+    <text x="540" y="170" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#3060b0">Ubiquitous Language</text>
+    <text x="540" y="195" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">Shared vocabulary</text>
+    <text x="540" y="215" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">between business</text>
+    <text x="540" y="235" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">and development</text>
+  </g>
+  
+  <g>
+    <!-- 领域讲述 -->
+    <rect x="650" y="140" width="160" height="120" rx="8" ry="8" fill="#d4e6ff" stroke="#5080d0" stroke-width="1.5"/>
+    <text x="730" y="170" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#3060b0">Domain Storytelling</text>
+    <text x="730" y="195" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">Collaborative</text>
+    <text x="730" y="215" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">domain understanding</text>
+    <text x="730" y="235" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">through stories</text>
+  </g>
+  
+  <!-- 战术设计部分 -->
+  <rect x="50" y="320" width="800" height="300" rx="10" ry="10" fill="#fff5f1" stroke="#e8a080" stroke-width="2"/>
+  <text x="450" y="350" font-family="Ubuntu Mono, monospace" font-size="22" text-anchor="middle" font-weight="bold" fill="#c06030">Tactical Design</text>
+  
+  <!-- 战术设计元素 -->
+  <g>
+    <!-- 实体 -->
+    <rect x="80" y="380" width="120" height="100" rx="8" ry="8" fill="#ffe4d4" stroke="#e0a080" stroke-width="1.5"/>
+    <text x="140" y="410" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#c06030">Entities</text>
+    <text x="140" y="435" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">Objects with</text>
+    <text x="140" y="455" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">identity</text>
+  </g>
+  
+  <g>
+    <!-- 值对象 -->
+    <rect x="220" y="380" width="120" height="100" rx="8" ry="8" fill="#ffe4d4" stroke="#e0a080" stroke-width="1.5"/>
+    <text x="280" y="410" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#c06030">Value Objects</text>
+    <text x="280" y="435" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">Immutable</text>
+    <text x="280" y="455" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">attribute objects</text>
+  </g>
+  
+  <g>
+    <!-- 聚合 -->
+    <rect x="360" y="380" width="120" height="100" rx="8" ry="8" fill="#ffe4d4" stroke="#e0a080" stroke-width="1.5"/>
+    <text x="420" y="410" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#c06030">Aggregates</text>
+    <text x="420" y="435" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">Consistency</text>
+    <text x="420" y="455" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">boundaries</text>
+  </g>
+  
+  <g>
+    <!-- 领域服务 -->
+    <rect x="500" y="380" width="120" height="100" rx="8" ry="8" fill="#ffe4d4" stroke="#e0a080" stroke-width="1.5"/>
+    <text x="560" y="410" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#c06030">Domain Services</text>
+    <text x="560" y="435" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">Cross-entity</text>
+    <text x="560" y="455" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">operations</text>
+  </g>
+
+  <g>
+    <!-- 领域事件 -->
+    <rect x="640" y="380" width="120" height="100" rx="8" ry="8" fill="#ffe4d4" stroke="#e0a080" stroke-width="1.5"/>
+    <text x="700" y="410" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#c06030">Domain Events</text>
+    <text x="700" y="435" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">Record of</text>
+    <text x="700" y="455" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">state changes</text>
+  </g>
+
+  <g>
+    <!-- 资源库 -->
+    <rect x="150" y="500" width="120" height="100" rx="8" ry="8" fill="#ffe4d4" stroke="#e0a080" stroke-width="1.5"/>
+    <text x="210" y="530" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#c06030">Repositories</text>
+    <text x="210" y="555" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">Storage</text>
+    <text x="210" y="575" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">abstraction</text>
+  </g>
+
+  <g>
+    <!-- 工厂 -->
+    <rect x="290" y="500" width="120" height="100" rx="8" ry="8" fill="#ffe4d4" stroke="#e0a080" stroke-width="1.5"/>
+    <text x="350" y="530" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#c06030">Factories</text>
+    <text x="350" y="555" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">Complex</text>
+    <text x="350" y="575" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">object creation</text>
+  </g>
+
+  <g>
+    <!-- 应用服务 -->
+    <rect x="430" y="500" width="240" height="100" rx="8" ry="8" fill="#ffe4d4" stroke="#e0a080" stroke-width="1.5"/>
+    <text x="550" y="530" font-family="Ubuntu Mono, monospace" font-size="16" text-anchor="middle" font-weight="bold" fill="#c06030">Application Services</text>
+    <text x="550" y="555" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">Orchestrate domain objects</text>
+    <text x="550" y="575" font-family="Ubuntu Mono, monospace" font-size="12" text-anchor="middle" fill="#333333">to fulfill use cases</text>
+  </g>
+
+  <!-- 连接线 -->
+  <line x1="160" y1="280" x2="160" y2="320" stroke="#666666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="350" y1="280" x2="350" y2="320" stroke="#666666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="540" y1="280" x2="540" y2="320" stroke="#666666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="730" y1="280" x2="730" y2="320" stroke="#666666" stroke-width="2" stroke-dasharray="5,5"/>
+</svg> 
